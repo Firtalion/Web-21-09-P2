@@ -1,0 +1,25 @@
+﻿body {
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.menu li {
+    display: inline-block;
+    height: 50px;
+}
+
+    .menu li a {
+        text-decoration: none;
+        color: blue;
+        padding: 10px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+        .menu li a:hover {
+            background-color: gray;
+        }
